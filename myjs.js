@@ -37,9 +37,9 @@ var addEnter = $("input:text").keypress(function(event){
 var addToPros = function(item) {
   var itemWrap = '<div id="text" contenteditable="true">'+ item + '</div>';
   $proList.append(
-      '<li>' + itemWrap + 
-      '<input type="button" class="delete" value="remove"/>' + 
-      '</li>'
+    '<li>' + itemWrap + 
+    '<input type="button" class="delete" value="remove"/>' + 
+    '</li>'
   );
 }; 
   
@@ -86,12 +86,12 @@ var displayConTotal = function(){
 
 	
 $(document).ready(function(){
-  	addClick();
-    addEnter();
-    addToPros();
-    addToCons();
-  	removeItem();
-    displayProTotal();
-    displayConTotal();
+  addClick();
+  addEnter();
+  addToPros();
+  addToCons();
+  removeItem();
+  displayProTotal();
+  displayConTotal();
 })
 
