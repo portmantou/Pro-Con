@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do or not To Do</title>
+    <link rel="stylesheet" type="text/css" href="CSS 2.1.css" href="http://fonts.googleapis.com/css?family=Lato"> 
+    <script src="jquery-1.12.0.min.js"></script>
+    
+  </head>
+  
+  <body>
+    <div class="header">
+      <h1>TO DO <span> or Not To Do</span></h1>
+      <p><h3> Trying to figure out the pros and cons of a situation, or a course of action? Use the boxes below to help sort your thoughts! </h3></p>
+    </div>
+    
+    <div class= "goal">
+      <h5 contenteditable="true">I'm trying to decide... (click to edit)</h5>
+    
+    </div>
+  
+    <div class="container">
+  
+      <div class="item-box" id="proBox">
+        <div class="boxHeader">
+          <h3>PROS</h3>
+        </div>  
+        
+        <div class="addArea">
+            <input type="text" class="addTextField" id="proItem" placeholder="Add item"/>
+            <input type="button" class="addButton" id="proButton" value="+"/>
+        </div>
+        
+        <div class="list">
+          <ul class="Pros">          
+          </ul>
+        </div>
+        
+        <div class="total">
+          <h3>
+          <span id="proTotal"></span>          
+          </h3>  
+        </div>
+        
+      </div>
+  
+      <div class="item-box" id="conBox">
+        <div class="boxHeader">
+          <h3>CONS</h3>
+        </div>
+
+        <div class="addArea">
+            <input type="text" class="addTextField" id="conItem" placeholder="Add item"/>
+            <input type="button" class="addButton" id="conButton" value="+"/>
+        </div>
+          
+        <div class="list">
+          <ul class="Cons">          
+          </ul>
+        </div>
+          
+        <div class="total">
+          <h3>
+          <span id="conTotal"></span>          
+          </h3>  
+        </div>
+          
+      </div>
+
+    </div>
+
+    <script src="myjs.js"></script>
+  </body>
+  
+</html>
