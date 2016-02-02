@@ -1,6 +1,5 @@
 
 body {  
-  background-image: url("http://www.designlovefest.com/wp-content/uploads/downloads/2015/10/White1.jpg");
   background-size: cover;
   width: 70%;
   margin-left: auto;
@@ -45,7 +44,6 @@ h1 span {
   margin: 0 auto;
   min-height: 70px;
   width: 400px;
-  border-style: solid;
   border-radius: 5px;
   padding-left: 10px;
   padding-right: 10px;
